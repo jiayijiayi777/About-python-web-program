@@ -11,5 +11,5 @@ from selenium import webdriver  # Invoke Chrome Drive
 start_url = input('Please enter the URL, including http:')  # Set website link
 driver = webdriver.Chrome()  # Use Chrome Drive
 driver.get(url=start_url)  # open the Web page
-time.sleep(3)  # Wait 3 seconds
+time.sleep(5)  # Wait 5 seconds
 driver.close()  # Close page
